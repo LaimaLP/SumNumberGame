@@ -6,20 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number Game</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/font-awesome.min.css">
 </head>
 
 <body>
    
 
     <div class="block-container">
-        <div class="value-container">
-            <div class = "correct"> Valio! </div>
-            <div class = "notCorrect"> Dar kartelį </div>
+        <button id="dar">Dar? </button>
+        <div id="result" class="result-container">
+            <div id="result-value" class = "correct"> &#128512 </div>
+           <!-- <div class="offbackground"></div> -->
     
         </div>
 
         <div class="title"> Kiek bus?</div>
-        <div class = "sum"> 7 + 3 = </div>
+        <div class = "sum"> 
+            <span id="number1">5</span>
+            <span id="sumicon">+</span>
+
+            <span id="number2">5</span>
+        </div>
         <input id='answer' class = "answer-input" type="text">
         <button id="btn" class="btn"> Pateikti</button>
     </div>
@@ -30,3 +37,4 @@
 </body>
 
 </html>
+
