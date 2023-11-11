@@ -119,7 +119,7 @@ body{
   }
   #dar:hover{
     background-color: rgba(54, 3, 104, 0.581);
-
+  }
   .show {
   
     animation: jumpAnimation 0.5s ease-in-out infinite alternate;
@@ -139,8 +139,8 @@ body{
   .incorrect {
     background-color: #df4f4f; /* Red color for incorrect answer, you can change it */
   }
-  }
 
-  .fa-refresh{
+
+.fa-refresh{
     color: aliceblue;
-  }
+}
