@@ -11,7 +11,7 @@ let answerOptions = ["Valiooo :)", "Bandyk dar kartą :(", "Reikia skaičiaus"];
 let firstRandom;
 let secondRandom;
 let correctAnswerValue;
-getRandom(20);
+getRandom(10);
 
 function getRandom(max) {
   firstRandom = Math.floor(Math.random() * max);
@@ -24,7 +24,7 @@ function getRandom(max) {
 }
 
 document.getElementById("dar").addEventListener("click", () => {
-  let max = 20;
+  let max = 10;
   getRandom(max);
   resultValue.classList.remove("show");
 });
